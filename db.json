@@ -1,31 +1,74 @@
 {
-  "posts": [
+  "tickets": [
       {
           "id": 1,
-          "title": "Welcome to this new Blog",
-          "body": "Strigns are double qoute the fox jumps over the lazy dog",
-          "likes": 30
+          "number": "123343",
+          "system": "IRM",
+          "createdtime": "08-22-22 07:56am",
+          "responsetime": "08-22-22 11:36pm",
+          "status": "open"
       },
       {
-          "id": 2,
-          "title": "Welcome number 2",
-          "body": "Strigns are double qoute",
-          "likes": 15
+        "id": 2,
+        "number": "24235",
+        "system": "GUTS",
+        "createdtime": "08-24-22 06:11am",
+        "responsetime": "08-24-22 12:16pm",
+        "status": "resolve"
       },
       {
-          "id": 3,
-          "title": "Welcome number 3",
-          "body": "Strigns are double qoute",
-          "likes": 25
+        "id": 3,
+        "number": "3353453",
+        "system": "RIM",
+        "createdtime": "08-24-22 11:00pm",
+        "responsetime": "08-25-22 11:25am",
+        "status": "open"
+      },
+      {
+        "id": 4,
+        "number": "77434",
+        "system": "GUTS",
+        "createdtime": "08-28-22 04:26am",
+        "responsetime": "08-28-22 05:18am",
+        "status": "open"
+      },
+      {
+        "id": 5,
+        "number": "98743",
+        "system": "RIM",
+        "createdtime": "08-30-22 01:00am",
+        "responsetime": "08-30-22 06:05am",
+        "status": "resolve"
       }
   ],
   
-  "palace":[
-      {
-          "id": 1,
-          "title": "polls to this new Blog",
-          "body": "Strigns are double qoute",
-          "likes": 30
-      }
+  "openticket":[
+    {
+        "id": 1,
+        "createdtime": "August 03, 2022"
+    },
+    {
+        "id": 2,
+        "createdtime": "August 04, 2022"
+    },
+    {
+        "id": 3,
+        "createdtime": "August 05, 2022"
+    }
+  ],
+  
+  "closeticket":[
+    {
+        "id": 1,
+        "createdtime": "August 04, 2022"
+    },
+    {
+        "id": 2,
+        "createdtime": "August 05, 2022"
+    },
+    {
+        "id": 3,
+        "createdtime": "August 07, 2022"
+    }
   ]
 }
