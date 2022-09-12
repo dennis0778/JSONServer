@@ -1,0 +1,31 @@
+{
+  "posts": [
+      {
+          "id": 1,
+          "title": "Welcome to this new Blog",
+          "body": "Strigns are double qoute the fox jumps over the lazy dog",
+          "likes": 30
+      },
+      {
+          "id": 2,
+          "title": "Welcome number 2",
+          "body": "Strigns are double qoute",
+          "likes": 15
+      },
+      {
+          "id": 3,
+          "title": "Welcome number 3",
+          "body": "Strigns are double qoute",
+          "likes": 25
+      }
+  ],
+  
+  "palace":[
+      {
+          "id": 1,
+          "title": "polls to this new Blog",
+          "body": "Strigns are double qoute",
+          "likes": 30
+      }
+  ]
+}
